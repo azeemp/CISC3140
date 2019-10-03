@@ -5,4 +5,6 @@
          (cons (car lst2) (mergelists lst1 (cdr lst2))))
         (else
          (cons (car lst1) (mergelists (cdr lst1) lst2)))))
+
+;try (mergelists '(1 3 4) '(2 4 5))
          
